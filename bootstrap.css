@@ -5264,9 +5264,8 @@ fieldset:disabled .btn {
 }
 
 .accordion-button:not(.collapsed) {
-    color: #c3200e;
-    background-color: #fbe9e7;
-    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125)
+    color: var(--secundario);
+    background-color: transparent;
 }
 
 .accordion-button:not(.collapsed)::after {
@@ -5282,7 +5281,6 @@ fieldset:disabled .btn {
     height: 1.25rem;
     margin-left: auto;
     content: "";
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
     background-repeat: no-repeat;
     background-size: 1.25rem;
     transition: -webkit-transform .2s ease-in-out;
@@ -5302,9 +5300,7 @@ fieldset:disabled .btn {
 
 .accordion-button:focus {
     z-index: 3;
-    border-color: #ec9187;
     outline: 0;
-    box-shadow: 0 0 0 .25rem rgba(217, 35, 15, .25)
 }
 
 .accordion-header {

@@ -6,6 +6,10 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Vaccination</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel='stylesheet' type='text/css' media='screen' href='bootstrap.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
@@ -42,255 +46,282 @@
             </div>
         </div>
     </nav>
-
     <section class="imagen1">
-        <div class="informacion">
-            <h1>Fight Virus <br> With Vaccines</h1>
-            <p>Let's stop this pandemic by killing the virus with a vaccine, don't let yoursel and your family get infected</p>
-            <div class="row">
-                <label>Best protection</span>
-                <label>Selected Vaccines</span>
+        <div class="row" style="position: relative;">
+            <div class="col-sm-12 col-md-6">
+                <div class="informacion">
+                    <h1>Fight Virus <br> With Vaccines</h1>
+                    <p>Let's stop this pandemic by killing the virus with a vaccine, don't let yoursel and your family get infected</p>
+                    <div class="row">
+                        <div class="col-6"><label class="band-amarilla"><i class="bi bi-sliders"></i>&nbsp;Best protection</span></div>
+                            <div class="col-6"><label class="band-amarilla"><i class="bi bi-sliders"></i>&nbsp;Selected Vaccines</span></div>
+                    </div>
+                <div class="pad-top"></div>
+                <div class="pad-top"></div>
+                <p class="informacion-central-p"><i class="bi bi-sliders"></i>&nbsp;Schedule your vaccinations</p>
+                </div>
             </div>
-        </div>
-        <p class="pad-top">Schedule your vaccinations</p>
-        <div class="row informacion-central">
-            <div class="col-md-3">
-                <p>Location</p>
-                <p>Jakarta Utara</p>
+            <div class="row informacion-central">
+                <div class="col-md-3 col-sm-6">
+                    <div class="info2">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <p>Location</p>
+                        <h5>Jakarta Utara</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="info2">
+                        <i class="bi bi-calendar-week-fill"></i>
+                        <p>Date</p>
+                        <h5>08 July 2021</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="info2">
+                        <i class="bi bi-pen-fill"></i>
+                        <p>Vaccine Type</p>
+                        <h5>Moderna</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <button class="btn btn-azul">Submit</button>
+                </div>
             </div>
-            <div class="col-md-3">
-                <p>Date</p>
-                <p>08 July 2021</p>
-            </div>
-            <div class="col-md-3">
-                <p>Vaccine Type</p>
-                <p>Moderna</p>
-            </div>
-            <div class="col-md-3">
-                <button class="btn btn-azul">Submit</button>
+            <div class="col-sm-12 col-md-6 div-imagen1">
+                <img src="./src/imagen2.jpg" alt="" style="width: 100%;">
             </div>
         </div>
     </section>
 
     <section class="vacunas">
         <div class="container">
-            <div class="row">    
-              <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img src="./src/astrazeneca.png" class="img-fluid" alt="">
-              </div>   
-              <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img src="./src/sinovac.png" class="img-fluid" alt="">
-              </div>   
-              <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img src="./src/pfizer.jpg" class="img-fluid" alt="">
-              </div>   
-              <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img src="./src/moderna.jpg" class="img-fluid" alt="">
-              </div>    
-            </div>    
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="./src/astrazeneca.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="./src/sinovac.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="./src/pfizer.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="./src/moderna.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="why-vaccine">
-        <div class="informacion">
+        <div class="informacion-text">
             <h2>Why should I vaccine?</h2>
             <p>In order to avoid any doubts getting the COVID-19 vaccine, identify the following 4 benefits of COVID-19 vaccination:</p>
-        </div>        
-        <div class="row">
+        </div>
+        <div class="row pad-top why-vaccine-list">
             <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                 <div class="icon-box">
-                    <div class="icon"><i class="bi-alarm"></i></div>
-                    <h4 class="title"><a href="">Minimize the spread of viruses</a></h4>
+                    <div class="icon"><i class="bi bi-sliders"></i></div>
+                    <h4 class="title">Minimize the spread of viruses</h4>
                     <p class="description">Vaccine has been proven effective to prevent someone from getting infected witch Coronavirus</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                 <div class="icon-box">
-                    <div class="icon"><i class="bi-alarm"></i></div>
-                    <h4 class="title"><a href="">Forming antibodies</a></h4>
+                    <div class="icon"><i class="bi bi-shield-fill-check"></i></div>
+                    <h4 class="title">Forming antibodies</h4>
                     <p class="description">COVID-19 vaccine proven to help shape antobody response for immune system</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                 <div class="icon-box">
-                    <div class="icon"><i class="bi-alarm"></i></div>
-                    <h4 class="title"><a href="">Protecting people nearby</a></h4>
+                    <div class="icon"><i class="bi bi-people-fill"></i></div>
+                    <h4 class="title">Protecting people nearby</h4>
                     <p class="description">The benefits of COVID-19 vaccination are the vaccine that we get can also help protect people around us</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                 <div class="icon-box">
-                    <div class="icon"><i class="bi-alarm"></i></div>
-                    <h4 class="title"><a href="">Creating group immunity</a></h4>
+                    <div class="icon"><i class="bi bi-arrow-up-right-square-fill"></i></div>
+                    <h4 class="title">Creating group immunity</h4>
                     <p class="description">COVID-19 vaccination is also beneficial for creating group immunity or her inmmunity</p>
                 </div>
             </div>
         </div>
     </section>
 
-    
-    <section class="preparations">        
-        <div class="row">    
-            <div class="col-6">
-                <img src="./src/imagen4.jpg" alt="" style="width: 100%;">
-            </div>        
-            <div class="col-6">
-                <h2>Preparations Before Vaccine</h4>
-                <p>The success of vaccines is strongly influenced by the strength of the body's immune system. Therefore, there are several things that can be tried
-                    to make the COVID-19 vaccine work:
-                </p>
-                <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          Accordion Item #1
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
-                        <div class="accordion-body">
-                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Accordion Item #2
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style="">
-                        <div class="accordion-body">
-                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          Accordion Item #3
-                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample" style="">
-                        <div class="accordion-body">
-                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                      </div>
-                    </div>                    
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingFour">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-                            Accordion Item #4
-                          </button>
-                        </h2>
-                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample" style="">
-                          <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                          </div>
-                        </div>
-                      </div>
-                      
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingFive">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
-                            Accordion Item #5
-                          </button>
-                        </h2>
-                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample" style="">
-                          <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-            </div>        
-        </div>   
-    </section>
-    
-    <section class="contact">    
+    <section class="preparations">
         <div class="row">
-            <div class="col-6">
-                <h2>Emergency Contact</h2>
-                <p>Contact one of the contacts below if you or your family feel unwell and have similar symptoms such as COVID-19, make sure you also take care of yoursel before reporting to us:</p>
-                <div class="container">
-                    <div class="row">    
-                        <div class="col-6 d-flex align-items-center justify-content-center">
-                            <div class="info">
-                                <i class="bi bi-geo-alt"></i>
-                                <h4>Location:</h4>
-                                <p>A108 Adam Street, New York, NY 535022</p>
-                                <button class="btn btn-primary">Call Now</button>
+            <div class="col-xs-12 col-md-6 div-imagen1">
+                <img src="./src/imagen4.jpg" alt="" style="width: 100%;">
+            </div>
+            <div class="col-xs-12 col-md-6 informacion-text pad-left">
+                <h2>Preparations Before Vaccine</h4>
+                    <p>The success of vaccines is strongly influenced by the strength of the body's immune system. Therefore, there are several things that can be tried to make the COVID-19 vaccine work:
+                    </p>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <i class="bi bi-shield-fill-x"></i>&nbsp;Avoid alcoholic beverages
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as
+                                    well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+                                    though the transition does limit overflow.
+                                </div>
                             </div>
-                        </div>   
-                        <div class="col-6 d-flex align-items-center justify-content-center">
-                            <div class="info">
-                                <i class="bi bi-geo-alt"></i>
-                                <h4>Location:</h4>
-                                <p>A108 Adam Street, New York, NY 535022</p>
-                                <button class="btn btn-primary">Chat Now</button>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <i class="bi bi-x-square-fill"></i>&nbsp;Avoid stress
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style="">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+                                    as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+                                    though the transition does limit overflow.
+                                </div>
                             </div>
-                        </div>   
-                        <div class="col-6 d-flex align-items-center justify-content-center">
-                            <div class="info">
-                                <i class="bi bi-geo-alt"></i>
-                                <h4>Location:</h4>
-                                <p>A108 Adam Street, New York, NY 535022</p>
-                                <button class="btn btn-primary">Video Call Now</button>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <i class="bi bi-bag-check-fill"></i>&nbsp;Eat healthy food
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample" style="">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+                                    as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+                                    though the transition does limit overflow.
+                                </div>
                             </div>
-                        </div>   
-                        <div class="col-6 d-flex align-items-center justify-content-center">
-                            <div class="info">
-                                <i class="bi bi-geo-alt"></i>
-                                <h4>Location:</h4>
-                                <p>A108 Adam Street, New York, NY 535022</p>
-                                <button class="btn btn-primary">Message Now</button>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                    <i class="bi bi-hospital-fill"></i>&nbsp;Get enough sleep
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample" style="">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+                                    as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+                                    though the transition does limit overflow.
+                                </div>
                             </div>
-                        </div>    
-                    </div>    
+                        </div>
+    
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                                    <i class="bi bi-shield-fill-x"></i>&nbsp;Exercise of physical activity
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample" style="">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+                                    as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+                                    though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <div class="informacion">
+                    <h2>Emergency Contact</h2>
+                    <p>Contact one of the contacts below if you or your family feel unwell and have similar symptoms such as COVID-19, make sure you also take care of yoursel before reporting to us:</p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6 d-flex align-items-center justify-content-center">
+                                <div class="info">
+                                    <i class="bi bi-telephone-fill"></i>
+                                    <h4>Call</h4>
+                                    <p>021.123.145.14</p>
+                                    <button class="btn btn-azul-secundario">Call Now</button>
+                                </div>
+                            </div>
+                            <div class="col-6 d-flex align-items-center justify-content-center">
+                                <div class="info">
+                                    <i class="bi bi-chat-quote-fill"></i>
+                                    <h4>Chat</h4>
+                                    <p>021.123.145.14</p>
+                                    <button class="btn btn-azul-secundario">Chat Now</button>
+                                </div>
+                            </div>
+                            <div class="col-6 d-flex align-items-center justify-content-center">
+                                <div class="info">
+                                    <i class="bi bi-camera-video-fill"></i>
+                                    <h4>Voice Call</h4>
+                                    <p>021.123.145.14</p>
+                                    <button class="btn btn-azul-secundario">Video Call Now</button>
+                                </div>
+                            </div>
+                            <div class="col-6 d-flex align-items-center justify-content-center">
+                                <div class="info">
+                                    <i class="bi bi-chat-dots-fill"></i>
+                                    <h4>Message</h4>
+                                    <p>021.123.145.14</p>
+                                    <button class="btn btn-azul-secundario">Message Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>                  
-            <div class="col-6">
+            </div>
+            <div class="col-sm-12 col-md-6 div-imagen1">
                 <img src="./src/imagen3.jpg" alt="" style="width: 100%;">
-            </div>   
-        </div>       
+            </div>
+        </div>
     </section>
 
     <footer>
-        <div class="row">    
-            <div class="col-lg-6 col-md-6">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
                 <h3>Vaccination</h3>
-                <p>Our goal is to help the<br>
-                world free from the<br>
-                ongoing pandemix
+                <p>Our goal is to help the<br> world free from the<br> ongoing pandemix
                 </p>
-            </div>        
-            <div class="col-lg-2 col-md-6">
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6">
                 <h4>About</h4>
-                <ul>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">About Us</a></li>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">Features</a></li>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">News & Blog</a></li>
-                </ul>
-            </div>        
-            <div class="col-lg-2 col-md-6">
+                <p><a href="#">About Us</a></p>
+                <p><a href="#">Features</a></p>
+                <p><a href="#">News & Blog</a></p>
+                
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6">
                 <h4>Company</h4>
-                <ul>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">How We Work?</a></li>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">Capital</a></li>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">Security</a></li>
-                </ul>
+                <p><a href="#">How We Work?</a></p>
+                <p><a href="#">Capital</a></p>
+                <p><a href="#">Security</a></p>
+                
             </div>
-            <div class="col-lg-2 col-md-6">
+            <div class="col-lg-2 col-md-6 col-sm-6">
                 <h4>Support</h4>
-                <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">FAQs</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Support Center</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Contact Us</a></li>
-                </ul>
-            </div> 
-            <div class="col-12">
-                 © 2022 Eduardo Rico.  
+                <p><a href="#">FAQs</a></p>
+                <p><a href="#">Support Center</a></p>
+                <p><a href="#">Contact Us</a></p>                
             </div>
-        </div>    
+            <div class="col-lg-7 col-sm-12">
+                © 2022 Eduardo Rico.
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <p><a href="#">Tearms & Agreements</a></p>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+                <p><a href="#">Privacy Policy</a></p>
+            </div>
+        </div>
     </footer>
     <script src='main.js'></script>
     <script src='bootstrap.js'></script>
