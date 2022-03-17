@@ -5,6 +5,7 @@
 
 * {
     font-family: 'Fredoka', sans-serif;
+    font-size: 1.1rem;
 }
 
 h1,
@@ -15,6 +16,10 @@ h5,
 h6 {
     color: var(--oscuro);
     font-family: 'Fredoka One', cursive;
+}
+
+h1 {
+    font-size: 4rem;
 }
 
 .centrar-v {
@@ -69,7 +74,13 @@ h6 {
 .titulo {
     color: var(--secundario);
     font: bold;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-family: 'Fredoka One', cursive;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-family: 'Fredoka One', cursive;
 }
 
 .sin-margen {
